@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <fieldset id="fieldset">
+        <legend> <strong>Student Information</strong> </legend>
+        <form action="thankyou.html">
+            <label for="name" class="identity"> Name:<sup id="sup">*</sup></label>
+            <input type="text" maxlength="20" name="username" placeholder="Mahnoor" id="name" required="required">
+
+            <br />
+            <br />
+            <label for="date" class="identity">Date Of Birth:</label>
+            <input type="date" name="DOB" placeholder="01/01/2024" id="date">
+            <br />
+            <br />
+            <label for="password"class="identity">Password:</label>
+            <input type="password" name="userpassword" placeholder="html#2024" id="password">
+            <br />
+            <br />
+            <label for="email"class="identity">Email:</label>
+            <input type="email" name="useremail" placeholder="you@gmail.com" id="email">
+            <br />
+            <br />
+            <label for="number"class="identity">Number:</label>
+            <input type="number" name="usernumber" placeholder="03123456789" id="number">
+
+            <br />
+            <br />
+            <label for="textarea"class="identity"> Write about yourself:</label><br />
+            <textarea cols="40" rows="10" id="textarea" maxlength="50"></textarea>
+            <br />
+            <br />
+            Choose Language:
+            <input type="checkbox" name="Language" class="identity">
+            <label for="Urdu" >Urdu</label>
+            <input type="checkbox" name="Language">
+            <label for="en">English</label>
+            <input type="checkbox" name="Language">
+            <label for="arabic" >Arabic</label>
+            <br />
+            <br />
+            Gender:
+            <input type="radio" name="Gender" class="identity">
+            Male
+            <input type="radio" name="Gender" class="identity">
+            Female
+            <br />
+            <br />
+            <label for="city" class="identity">Select your city:</label>
+            <select name="city" id="city" size="1">
+                <option value="Karachi" selected class="opt">Karachi </option>
+                <option value="">Islamabad</option>
+                <option value="">Quetta</option>
+                <option value="">Lahore</option>
+                <option value="">Peshawar</option>
+                <option value="">Multan</option>
+                <option value="">Hyderabad</option>
+            </select>
+            <br />
+            <br />
+            Upload File:
+            <input type="file" value="Upload">
+            <br />
+            <br />
+            <input type="reset" value="Reset">
+            <br />
+            <br />
+            <input type="image" src="button.png" width="200" height="150">
+        </form>
+    </fieldset>
+</body>
+
+</html>
